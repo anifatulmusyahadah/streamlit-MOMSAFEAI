@@ -1,0 +1,25 @@
+cookie:
+  expiry_days: 7
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    pkmsumbersari:
+      email: jsmith@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Puskesmas Sumbersari
+      password: sumbersari123 # Will be hashed automatically
+    pkmkaliwates:
+      email: rbriggs@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Rebecca Briggs
+      password: def # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+pre-authorized:
+  emails:
+  - melsby@gmail.com
